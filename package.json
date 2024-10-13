@@ -1,0 +1,25 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "my first proper React App",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yashshukla0/react.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Yash Shukla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yashshukla0/react/issues"
+  },
+  "homepage": "https://github.com/Yashshukla0/react#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
