@@ -1,0 +1,26 @@
+package.json is a package containing dependencies of npm (not package marker)(fake name)
+
+command :
+npm init/npm init -y
+
+
+Most imp dependency:(Bundler) to enable the app to be pushed to production.Using parcel
+
+
+there are 2 type of dependencies:
+1 Dev dependency:Required for development phase.(Used in development phase)
+2 Normal Dependency
+
+
+"parcel":"^2.12.0"  (^ used to add minor new versions)
+                    (- used to add major new versions)
+                    don't use - coz we don't want to change to a major version change
+
+what is difference between package.json and package-lock.json:
+1.package-lock.json keeps track of all the exact versions which are installed
+2.package.json keeps track of approximate versions.
+
+ package-lock.json keeps contains an integrity (a Hash)to ensure the version which the user has should be same as in deployment
+
+
+ Parcel needs a lot of dependencies called as transitive dependencies.
