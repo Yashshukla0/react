@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 const heading=React.createElement("h1",{},"hello World in react");
 // <div>
 //    <div>
@@ -9,7 +11,7 @@ const heading=React.createElement("h1",{},"hello World in react");
 
 
 const heading2=React.createElement("div",{id:"h1-2"},
-    [React.createElement("h1",{},React.createElement("a",{href:"https://google.com"},"Link")),
+    [React.createElement("h1",{},React.createElement("a",{href:"https://google.com"},"Link to google")),
     React.createElement("h1",{},React.createElement("a",{href:"https://facebook.com"},"Link"))]);
 
 
